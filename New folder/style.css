@@ -56,20 +56,21 @@ p:hover{
     font-size: xx-large;
 }
 .inline {
-    display: inline;
+    display: inline-block
 }
 .flex.container{
     display: flex;
    /* flex-direction:  row-reverse; */
+   justify-content: space-around;
 }
-.flex.container{
+.flex.container div{
     background-color: peachpuff;
     border: 2xp solid brown;
     height: 100xp;
     width: 100xp;
 }
 .item2{
-    flex-grow: 2;
+   /* flex-grow: 2; */
     flex-shrink: 0;
 }
     
